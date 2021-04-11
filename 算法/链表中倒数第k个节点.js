@@ -1,7 +1,3 @@
-function ListNode(val) {
-  this.val = val;
-  this.next = null;
-}
 
 var getKthFromEnd = function(head, k) {
   let nodeLength =  0;

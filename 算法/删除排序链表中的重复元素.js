@@ -1,6 +1,6 @@
 function deleteDuplicates(head){
   if(!head){
-    return;
+    return head;
   }
   let cur = head;
   while(cur.next){
